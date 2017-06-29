@@ -94,7 +94,8 @@ RUN sudo yum -q install -y \
     automake
 
 ARG SWIFT_PLATFORM=centos7
-ARG SWIFT_BRANCH=swift-3.1-branch
+# swift-4.0-branch
+ARG SWIFT_BRANCH=swift-3.1-branch 
 ARG SWIFT_VERSION=swift-3.1-RELEASE
 
 ENV SWIFT_PLATFORM=$SWIFT_PLATFORM \
